@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
+import StarWars from './components/Starwars';
 
-const App = () => {
-
+function App () {
   return (
-    <div className="App">
-      <h1 className="Header">Star Wars Characters</h1>
-    </div>
-  );
-}
-
-export default App;
+      <div className="App">
+        <h1>Star Wars Characters</h1>
+        <div className ="StarWarz"> 
+          <StarWars />
+        </div>
+      </div>
+    );
+  }
+  
+  export default App;
